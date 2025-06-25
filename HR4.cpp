@@ -3,8 +3,12 @@
 Add `int max_of_four(int a, int b, int c, int d)` here.
 */
 int max_of_four(int a,int b,int c,int d){
-	int c=0;
-	
+	int t=0;
+	if(a>t) t=a;
+	if(b>t) t=b;
+	if(c>t) t=c;
+	if(d>t) t=d;
+	return t;
 }
 
 int main() {
